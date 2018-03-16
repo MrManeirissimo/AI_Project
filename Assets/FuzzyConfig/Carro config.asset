@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e844b4df836304b8d5051ffea892aa, type: 3}
+  m_Name: Carro config
+  m_EditorClassIdentifier: 
+  _behaviour: {fileID: 0}
+  _colorList:
+  - {r: 0.9851355, g: 0.6954566, b: 0.75050044, a: 0.80475265}
+  - {r: 0.6475818, g: 0.65806895, b: 0.9167294, a: 0.8483483}
+  - {r: 0.6135355, g: 0.588104, b: 0.7375714, a: 0.82485193}

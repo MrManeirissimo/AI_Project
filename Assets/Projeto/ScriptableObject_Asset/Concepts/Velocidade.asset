@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 940aace24f7153c49a53c5d6b718f6a4, type: 3}
+  m_Name: Velocidade
+  m_EditorClassIdentifier: 
+  _name: Velocidade
+  _value: 29.776627
+  _functions:
+  - _name: Baixa
+    _function:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -0.05
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 20
+        value: 0
+        inSlope: -0.05
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _fuzzy: -1
+    _begin:
+      _x: 0
+      _y: 1
+    _end:
+      _x: 20
+      _y: 0
+  - _name: Media
+    _function:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 20
+        value: 0
+        inSlope: 0.004453624
+        outSlope: 0.1
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 30
+        value: 1
+        inSlope: 0.1
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 50
+        value: 1
+        inSlope: -0
+        outSlope: -0.1
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 60
+        value: 0
+        inSlope: -0.1
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _fuzzy: -1
+    _begin:
+      _x: 20
+      _y: 0
+    _end:
+      _x: 60
+      _y: 0
+  - _name: Alta
+    _function:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 30
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 45.09201
+        value: 0.4574455
+        inSlope: 0.027330259
+        outSlope: 0.027330259
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 61.3796
+        value: 0.8576126
+        inSlope: 0.009881157
+        outSlope: 0.009881157
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 100
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _fuzzy: -1
+    _begin:
+      _x: 30
+      _y: 0
+    _end:
+      _x: 100
+      _y: 1

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e844b4df836304b8d5051ffea892aa, type: 3}
+  m_Name: FUZZY_ObjectTest config 1
+  m_EditorClassIdentifier: 
+  _behaviour: {fileID: 0}
+  _colorList:
+  - {r: 0.65345263, g: 0.9210977, b: 0.8863015, a: 0.9432036}
+  - {r: 0.90613455, g: 0.63868433, b: 0.8625325, a: 0.85285693}
+  - {r: 0.9517334, g: 0.9196719, b: 0.70007026, a: 0.87580156}

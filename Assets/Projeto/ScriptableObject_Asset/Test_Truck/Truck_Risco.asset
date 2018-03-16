@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 940aace24f7153c49a53c5d6b718f6a4, type: 3}
+  m_Name: Truck_Risco
+  m_EditorClassIdentifier: 
+  _name: 
+  _value: -1
+  _functions:
+  - _name: Baixo
+    _function:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 40
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _fuzzy: -1
+    _begin:
+      _x: 0
+      _y: 1
+    _end:
+      _x: 40
+      _y: 0
+  - _name: Medio
+    _function:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 25
+        value: 0
+        inSlope: -0.033333335
+        outSlope: 0.04
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 50
+        value: 1
+        inSlope: 0.04
+        outSlope: -0.033333335
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 80
+        value: 0
+        inSlope: -0.033333335
+        outSlope: -0.033333335
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _fuzzy: -1
+    _begin:
+      _x: 25
+      _y: 0
+    _end:
+      _x: 80
+      _y: 0
+  - _name: Alto
+    _function:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 50
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 100
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _fuzzy: -1
+    _begin:
+      _x: 50
+      _y: 0
+    _end:
+      _x: 100
+      _y: 1

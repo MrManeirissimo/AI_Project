@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 940aace24f7153c49a53c5d6b718f6a4, type: 3}
+  m_Name: Distancia
+  m_EditorClassIdentifier: 
+  _name: 
+  _value: 9.4242525
+  _functions:
+  - _name: Muito Perto
+    _function:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 14.121919
+        value: 0.491967
+        inSlope: -0.11870776
+        outSlope: -0.11870776
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 20
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _fuzzy: -1
+    _begin:
+      _x: 0
+      _y: 1
+    _end:
+      _x: 20
+      _y: 0
+  - _name: Perto
+    _function:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 8
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 18.544067
+        value: 0.9978523
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 30
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _fuzzy: -1
+    _begin:
+      _x: 8
+      _y: 0
+    _end:
+      _x: 30
+      _y: 0
+  - _name: Longe
+    _function:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 20
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 60
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _fuzzy: -1
+    _begin:
+      _x: 20
+      _y: 0
+    _end:
+      _x: 60
+      _y: 1
